@@ -16,6 +16,3 @@
 3. Click FAQ questions to show/hide answers
 4. Click "Load Users" to fetch and display user data
 5. Visit contact.html to test the form validation
-
-## Notes
-[Add any additional notes here]
