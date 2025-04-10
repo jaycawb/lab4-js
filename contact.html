@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website - Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <button id="themeToggle">Switch Theme</button>
+    </header>
+
+    <main>
+        <form id="contactForm">
+            <div>
+                <label for="nameInput">Name:</label>
+                <input type="text" id="nameInput" placeholder="Your Name">
+            </div>
+            <div>
+                <label for="messageInput">Message:</label>
+                <textarea id="messageInput" placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+        <div id="response"></div>
+    </main>
+
+    <footer>
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="contact.html">Contact</a>
+        </nav>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
